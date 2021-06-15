@@ -1,0 +1,39 @@
+.rodape {
+    background-color: var(--color-white);
+
+    width: 100%;
+    height: 5rem;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-sizing: border-box;
+
+    color: var(--color-pink);
+    letter-spacing: .25rem;
+}
+
+.rodape__divisao {
+    display: flex;
+    align-items: center;
+}
+
+.rodape__logo {
+    width: 2rem;
+
+    margin-right: .4rem;
+}
+
+.rodape__titulo {
+    text-transform: uppercase;
+}
+
+.rodape__navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.rodape__item {
+    margin-left: 3.75rem;
+}

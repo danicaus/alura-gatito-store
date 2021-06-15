@@ -1,0 +1,21 @@
+html {
+    height: 100vh;
+    
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+
+    perspective: 100px;
+
+    height: 100%;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+} 

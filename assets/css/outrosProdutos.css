@@ -1,0 +1,19 @@
+.outros-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 2.5rem;
+
+    background-color: var(--color-orange);
+}
+
+.outros-produtos__titulo {
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+}
